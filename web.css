@@ -1,0 +1,46 @@
+.study h1 {
+	font-weight: normal;
+	margin-bottom: .15rem;
+}
+
+.study a {
+	text-transform: lowercase;
+	text-decoration: underline;
+}
+
+p:first-of-type {
+	font-family: sans-serif;
+	font-style: italic;
+	text-align: left;
+	font-size: .75rem;
+	margin-top: 0;
+}
+
+p {
+	line-height: 1.4rem;
+	text-align: center;
+}
+
+.study {
+	margin: 1rem;
+}
+
+.web {
+	display: none;
+}
+
+.web:last-of-type {
+	display: block;
+}
+
+.images {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.images > img {
+	margin: 1rem 0;
+	border: 1px solid black;
+	width: 100%;
+}
